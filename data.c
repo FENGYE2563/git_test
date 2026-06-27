@@ -6,5 +6,6 @@ unsigned long long factorial(int n) {
     for (int i = 2; i <= n; i++) {
         result *= i;
     }
+    printf("%d\n\r",n);
     return result;
 }
