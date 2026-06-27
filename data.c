@@ -7,5 +7,6 @@ unsigned long long factorial(int n) {
         result *= i;
     }
     printf("%d\n\r",n);
+    printf("%d\n\r",n+5);
     return result;
 }
