@@ -8,5 +8,6 @@ unsigned long long factorial(int n) {
     }
     printf("%d\n\r",n);
     printf("%d\n\r",n+5);
+    printf("%d\n\r",n+9);
     return result;
 }
