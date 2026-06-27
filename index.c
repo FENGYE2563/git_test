@@ -16,5 +16,6 @@ int find_max_index(int arr[], int size) {
             max_index = i;
         }
     }
+    printf("%d\n\r",size);
     return max_index;
 }
